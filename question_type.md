@@ -1,5 +1,5 @@
 
-# ->i write, @ -> i observe, & -> my question, % -> copy
+@ -> i observe, & -> my question, % -> copy
 
 @ how to get desire numbers?
 
