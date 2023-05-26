@@ -33,7 +33,7 @@ graph TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#87CEFA',
+      'primaryColor': '#AFEEEE',
       'primaryTextColor': '#000000',
       'primaryBorderColor': '#000000',
       'lineColor': '#000000',
@@ -44,12 +44,13 @@ graph TD
 }%%
         graph TD
           subgraph section
-          A[Christmas] -->|Get money| B(Go shopping)
+          A[what is questions say?] -->|Get money| B(Go shopping)
           B --> C{Let me think}
           B --> G[/Another/]
           C ==>|One| D[Laptop]
           C -->|Two| E[iPhone]
           C -->|Three| F[fa:fa-car Car]
+          style B fill:#bbf
           end
 ```
 
