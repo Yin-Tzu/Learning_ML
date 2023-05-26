@@ -33,44 +33,23 @@ graph TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#00758f',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
+      'primaryColor': '#87CEFA',
+      'primaryTextColor': '#000000',
+      'primaryBorderColor': '#000000',
+      'lineColor': '#000000',
+      'secondaryColor': '#FFE5B4',
       'tertiaryColor': '#fff'
     }
   }
 }%%
         graph TD
+          subgraph section
           A[Christmas] -->|Get money| B(Go shopping)
           B --> C{Let me think}
           B --> G[/Another/]
           C ==>|One| D[Laptop]
           C -->|Two| E[iPhone]
           C -->|Three| F[fa:fa-car Car]
-          subgraph section
-            A
-            B
-            C
-            D
-            E
-            F
-            G
           end
 ```
-```mermaid
-sequenceDiagram
-    box white Alice & John
-    participant A
-    participant J
-    end
-    box Another Group
-    participant B
-    participant C
-    end
-    A->>J: Hello John, how are you?
-    J->>A: Great!
-    A->>B: Hello Bob, how is Charly ?
-    B->>C: Hello Charly, how are you?
-```
+
