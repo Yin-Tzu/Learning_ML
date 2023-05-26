@@ -20,7 +20,7 @@
 ```
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeCSS': 'svg {background-color: white}','themeVariables': {'primaryColor': '#fff','primaryTextColor': '#7C0000','primaryBorderColor': '#F8B229','lineColor': '#006100','secondaryColor': '#fff','tertiaryColor': '#7C0000'} }}%%
+%%{init: {'theme': 'base','themeVariables': {'darkMode': 'false', 'primaryColor': 'default','primaryTextColor': '#7C0000','primaryBorderColor': '#F8B229','lineColor': '#006100','secondaryColor': '#fff','tertiaryColor': '#7C0000', 'background' : '#f4f4f4'} }}%%
 graph TD
     A[afff]-->B
     A[afff]-->C
@@ -33,7 +33,7 @@ graph TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#BB2528',
+      'primaryColor': '#00758f',
       'primaryTextColor': '#fff',
       'primaryBorderColor': '#7C0000',
       'lineColor': '#F8B229',
@@ -50,10 +50,27 @@ graph TD
           C -->|Two| E[iPhone]
           C -->|Three| F[fa:fa-car Car]
           subgraph section
+            A
+            B
             C
             D
             E
             F
             G
           end
+```
+```mermaid
+sequenceDiagram
+    box white Alice & John
+    participant A
+    participant J
+    end
+    box Another Group
+    participant B
+    participant C
+    end
+    A->>J: Hello John, how are you?
+    J->>A: Great!
+    A->>B: Hello Bob, how is Charly ?
+    B->>C: Hello Charly, how are you?
 ```
