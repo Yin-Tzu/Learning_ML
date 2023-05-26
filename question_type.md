@@ -13,12 +13,47 @@
 
 % [minimizing a convex differentiable function](https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=Mqz_yhAAAAAJ&citation_for_view=Mqz_yhAAAAAJ:Z5m8FVwuT1cC)
 
-
+```mermaid
+%%{init: {'theme':'forest'}}%%
+  graph TD
+    a --> b
+```
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+%%{init: {'theme': 'base', 'themeCSS': 'svg {background-color: white}','themeVariables': {'primaryColor': '#fff','primaryTextColor': '#7C0000','primaryBorderColor': '#F8B229','lineColor': '#006100','secondaryColor': '#fff','tertiaryColor': '#7C0000'} }}%%
+graph TD
+    A[afff]-->B
+    A[afff]-->C
+    B-->D
+    C-->D
+```
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+        graph TD
+          A[Christmas] -->|Get money| B(Go shopping)
+          B --> C{Let me think}
+          B --> G[/Another/]
+          C ==>|One| D[Laptop]
+          C -->|Two| E[iPhone]
+          C -->|Three| F[fa:fa-car Car]
+          subgraph section
+            C
+            D
+            E
+            F
+            G
+          end
 ```
