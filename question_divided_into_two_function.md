@@ -20,7 +20,7 @@ objection and constraints.
 }%%
         graph TD
           subgraph section
-          A[what is questions say?] -->|Get money| B(Go shopping)
+          A[divided question into two type functions which are objection and constraint function] -->|Get money| B(Go shopping)
           B --> C{Let me think}
           B --> G[/Another/]
           C ==>|One| D[Laptop]
