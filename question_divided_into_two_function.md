@@ -25,7 +25,7 @@ this arrangement can easy find solution? or just systemlze?
 }%%
         graph TD
           subgraph section
-          A[divided question into two type functions which are objection and constraint function] --> B(why)
+          A[divided question into two type functions which are objection and constraint function] --> B(when,what,why, how, where,who)
           A --> D{Let me think}
           B --> G[/Another/]
           C -->|Two| E[iPhone]
