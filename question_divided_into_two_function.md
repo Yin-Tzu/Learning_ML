@@ -3,6 +3,9 @@
 
 objection and constraints.
 
+this classficition can easy find solution?
+
+this arrangement can easy find solution? or just systemlze?
 
 ```mermaid
 %%{
