@@ -3,9 +3,11 @@
 
 objection and constraints.
 
-this classficition can easy find solution?
+this classification can easy find a solution?
 
 this arrangement can easy find solution? or just systemlze?
+
+[]is an answer () is a question.
 
 ```mermaid
 %%{
@@ -23,10 +25,9 @@ this arrangement can easy find solution? or just systemlze?
 }%%
         graph TD
           subgraph section
-          A[divided question into two type functions which are objection and constraint function] -->|Get money| B(Go shopping)
-          B --> C{Let me think}
+          A[divided question into two type functions which are objection and constraint function] --> B(why)
+          A --> D{Let me think}
           B --> G[/Another/]
-          C ==>|One| D[Laptop]
           C -->|Two| E[iPhone]
           C -->|Three| F[fa:fa-car Car]
           style B fill:#bbf
